@@ -1,4 +1,4 @@
-require('dotenv').config(); 
+require('dotenv').config();
 
 
 module.exports = {
@@ -10,16 +10,16 @@ module.exports = {
 
   development: {
     database: 'books',
-    username: 'steven',
-    password: null,
+    username: 'gsimpson',
+    password: 'gsimpson',
     host: '127.0.0.1',
     dialect: 'postgres'
   },
 
   test: {
     database: 'book_test',
-    username: 'steven',
-    password: null,
+    username: 'gsimpson',
+    password: 'gsimpson',
     host: '127.0.0.1',
     dialect: 'postgres'
   },
